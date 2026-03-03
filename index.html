@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="textoPuntos" class="puntaje">
+    Puntos: 0
+  </div>
+ <div id="contenedor">
+   <h1>Pregunta 1</h1>
+   <h2>en que libro muere Albus Dumbledore?</h2>
+   <input type = "radio" name = "p1" value = "incorrecto">
+   <lable> en harry potter y la orden del fenix </input> <br>
+    <input type = "radio" name = "p1" value = "incorrecto">
+   <lable> en harry potter y las reliquias de la muerte </input> <br>
+    <input type = "radio" name = "p1" value = "incorrecto">
+   <lable> en harry potter y el caliz de fuego </input> <br>
+    <input type = "radio" name = "p1" value = "correcto">
+   <lable> en harry potter y el principe mestiso </input> <br>
+   <button onclick = "verifRespuesta('p1', '#result1')" > Chequear Respuesta </button>
+   <div class="result" id="result1"></div>
+   
+   <h1>Pregunta 2</h1>
+   <h2>cuales son las reliquias de la muerte?</h2>
+   <input type = "radio" name = "p2" value = "incorrecto">
+   <lable> el gira tiempo y el mapa del merodeador </input> <br>
+    <input type = "radio" name = "p2" value = "incorrecto">
+   <lable> solo el gira tiempo </input> <br>
+    <input type = "radio" name = "p2" value = "incorrecto">
+   <lable> la nimbus dos mil, la piedra de la resurrección y la varita de sauco  </input> <br>
+    <input type = "radio" name = "p2" value = "correcto">
+   <lable> la piedra de la resurrección, la varita de sauco y la capa de invisibilidad </input> <br>
+   <button onclick = "verifRespuesta( 'p2', '#result2')" > Chequear Respuesta </button>
+   <div class="result" id="result2"></div>
+   
+   <h1>Pregunta 3</h1>
+   
+   <h2>cuales son los tres hechizos imperdonables ?</h2>
+   <input type = "radio" name = "p3" value = "incorrecto">
+   <lable> crucio,protego,depulso </input> <br>
+    <input type = "radio" name = "p3" value = "incorrecto">
+   <lable> impero, revelio,crucio </input> <br>
+    <input type = "radio" name = "p3" value = "incorrecto">
+   <lable> imperio, crucio y difindo  </input> <br>
+    <input type = "radio" name = "p3" value = "correcto">
+   <lable> avada kedavra, crucio e imperio </input> <br>
+   <button onclick = "verifRespuesta( 'p3', '#result3')" > Chequear Respuesta </button>
+   <div class="result" id="result3"></div>
+ </div>  
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
